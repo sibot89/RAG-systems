@@ -34,7 +34,7 @@ if not api_key:
 def run_document_rag(
     document_dir: str,
     query_text: str,
-    generative_model: str = "gemini-1.5-flash",
+    generative_model: str = "gemini-2.0-flash",
 ) -> str:
     """
     Run a simple document-based RAG pipeline.
